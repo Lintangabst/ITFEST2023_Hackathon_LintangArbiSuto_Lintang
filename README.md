@@ -1,1 +1,11 @@
-# ITFEST2023_Hackathon_LintangArbiSuto_Lintang
+**ITFEST2023 HACKATHON**
+
+Nama : Lintang Arbi Suto
+Nama Website : MOOD ( Math Operation Online and Development )
+
+**Deskripsi Tentang Mood**
+
+Mood adalah sebuah website pembelajaran Matematika untuk Sekolah dasar Kelas 1 - 3 tentang Operasi Bilangan ( Penjumlahan, Perkalian, Pengurangan, Pembagian ).
+Sebuah Website yang dapat di akses secara gratis hanya dengan mendaftarkan diri.
+Fitur yang disediakan MOOD berupa Video Pembelajaran, Materi, Latihan, Evaluasi
+Fitur Evaluasi di akses secara berbayar, dengan membayar sebesar 20.000 untuk mendapatkan status Premium selama 14 Hari
