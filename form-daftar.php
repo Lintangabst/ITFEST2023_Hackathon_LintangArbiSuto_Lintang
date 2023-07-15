@@ -82,10 +82,12 @@ if (isset($_POST['daftar'])) {
 					<label for="user" class="font-bold">Username:</label>
 					<input type="text" name="user" placeholder="Username Anda" class="border border-gray-300 p-2 rounded-md w-full" />
 					</div>
-					<div class="mb-4">
-					<label for="pass" class="font-bold">Password:</label>
-					<input type="text" name="pass" placeholder="Password Anda" class="border border-gray-300 p-2 rounded-md w-full" />
-					</div>
+			                    <div class="mb-4">
+			                      <label for="pass" class="font-bold">Password:</label>
+			                      <input type="password" name="pass" id="pass" placeholder="Password Anda" class="border border-gray-300 p-2 rounded-md w-full" />
+			                      <input type="checkbox" id="showPassword" onchange="togglePasswordVisibility()" />
+			                      <label for="showPassword">Tampilkan kata sandi</label>
+			                    </div>
 					<div class="mb-4">
 						<label for="nama" class="font-bold">Nama:</label>
 						<input type="text" name="nama" placeholder="Nama lengkap" class="border border-gray-300 p-2 rounded-md w-full" />
@@ -133,6 +135,18 @@ if (isset($_POST['daftar'])) {
 		document.addEventListener("DOMContentLoaded", function() {
 			document.querySelector("form").classList.add("animate__animated", "animate__slideInUp");
 		});
+	</script>
+		<script>
+	    function togglePasswordVisibility() {
+  var passwordInput = document.getElementById("pass");
+  var showPasswordCheckbox = document.getElementById("showPassword");
+
+  if (showPasswordCheckbox.checked) {
+    passwordInput.type = "text";
+  } else {
+    passwordInput.type = "password";
+  }
+}
 	</script>
 </body>
 </html>
