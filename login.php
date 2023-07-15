@@ -76,6 +76,8 @@ mysqli_close($conn);
 
                 <label for="password" class="block mb-2">Password:</label>
                 <input type="password" id="password" name="password" required class="border border-gray-300 px-4 py-2 mb-4 rounded-md w-full">
+                <input type="checkbox" id="showPassword" onchange="togglePasswordVisibility()" />
+                <label for="showPassword">Tampilkan kata sandi</label>
 
                 <input type="submit" value="Login" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300" name="Submit">
             </form>
@@ -96,5 +98,17 @@ mysqli_close($conn);
             return true;
         }
     </script>
+        <script>
+function togglePasswordVisibility() {
+  var passwordInput = document.getElementById("password");
+  var showPasswordCheckbox = document.getElementById("showPassword");
+
+  if (showPasswordCheckbox.checked) {
+    passwordInput.type = "text";
+  } else {
+    passwordInput.type = "password";
+  }
+}
+</script>
 </body>
 </html>
