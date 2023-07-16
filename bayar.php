@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
-  <title>Bayar Sekarang</title>
+  <title>Form Pembayaran</title>
 </head>
 
 <body class="bg-gray-100">
@@ -22,6 +22,16 @@
         <div class="mb-4">
           <label for="username" class="block font-medium text-gray-700">Username</label>
           <input type="text" id="username" name="username" class="w-full border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+        </div>
+
+        <div class="mb-4">
+          <label for="metode_pembayaran" class="block font-medium text-gray-700">Metode Pembayaran</label>
+          <select id="metode_pembayaran" name="metode_pembayaran" class="w-full border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+            <option value="BCA">BCA</option>
+            <option value="OVO">OVO</option>
+            <option value="DANA">DANA</option>
+            <option value="SHOPEEPAY">SHOPEEPAY</option>
+          </select>
         </div>
 
         <div class="mt-6">
