@@ -75,7 +75,7 @@
             <p class="text-gray-700 mb-2">Lakukan pembayaran untuk mendapatkan akses premium MOOD. Silakan tekan tombol di bawah ini:</p>
             <p class="text-2xl font-bold mb-4">Harga: <span style="color: red;">20.000</span> / 14 Hari</p>
             <div class="flex justify-center">
-              <a href="https://wa.me/6281317157363?text=Assalamualaikum%20ka%2C%20saya%20tertarik%20dengan%20akses%20PREMIUM!" target="_blank" class="bg-blue-400 hover:bg-green-300 text-white font-bold py-2 px-4 rounded mt-4">Pembayaran</a>
+              <a href="bayar.php" class="bg-blue-400 hover:bg-green-300 text-white font-bold py-2 px-4 rounded mt-4">Pembayaran</a>
             </div>
           </div>
     </section>
